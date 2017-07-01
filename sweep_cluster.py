@@ -10,7 +10,7 @@ depot = [0, 0, 0, 0]
 
 
 
-ins=open("input1.txt","r+")
+ins=open("intputs/input1.txt","r+")
 customers=[[int(n) for n in line.split()] for line in ins]
 
 customerCount = 32
@@ -119,12 +119,12 @@ def clustering():
 
 def write_file(xy_members):
     for i in range(0,len(xy_members)):
-        file=open("%s.txt" %i,"w+")
+        file=open("inputs/%s.txt" %i,"w+")
         for j in range(0,len(xy_members[i])):
             file.write(str(xy_members[i][j])+"\n")
 def modify_file():
     for i in range(0,cluster_no):
-        with open("%s.txt" %i,"r+") as file:
+        with open("inputs/%s.txt" %i,"r+") as file:
             with open("%s.csv" %i,"w+") as out_file:
                 for line in file:
                     line=str(line)

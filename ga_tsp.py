@@ -26,7 +26,7 @@ csv_cities = True
 #vehicle_no=input("For which Vehicle do you want to optimize route?:")
 #tmp_vhcl=str(int(vehicle_no)-1)
 
-csv_name = ("cities.csv")
+csv_name = ("inputs/cities.csv")
 #files to be written
 op_file=open("output.txt","w+")
 op_file.write("No. of Generation"+"\t"+"Current Best Length"+"\n")
