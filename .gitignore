@@ -94,6 +94,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
-
+.gitattributes
 .gitignore
 .idea/
