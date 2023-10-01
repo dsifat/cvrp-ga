@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-01T10:41:17.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="pnLcvSUT3e1vkebNCrWp" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-01T10:54:19.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="i7OajiqqZFU-h3iD0T5E" version="21.8.2" type="github">
   <diagram name="Page-1" id="Z8a947xCfgXzP4bbAFFY">
     <mxGraphModel dx="825" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -52,8 +52,11 @@
         <mxCell id="xoesxY5Y8bjES4NoYSy4-31" value="rule&lt;br&gt;===&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;outlet&quot;: [23, 42],&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="395" y="980" width="315" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="xoesxY5Y8bjES4NoYSy4-34" value="result&lt;br&gt;===&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;outlet&quot;: &quot;fixed&quot;,&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;dashed=0;" vertex="1" parent="1">
+        <mxCell id="xoesxY5Y8bjES4NoYSy4-34" value="result&lt;br&gt;===&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;fixed&quot;: &quot;100&quot;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;product&quot;: [7,8,9]&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="760" y="980" width="315" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="xoesxY5Y8bjES4NoYSy4-35" value="check_promotion&lt;br&gt;===&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;outlet&quot;: &quot;42&quot;,&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1170" width="315" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
